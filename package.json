@@ -1,5 +1,5 @@
 {
-  "name": "checkmateservice",
+  "name": "checkmateservicev2",
   "version": "1.0.0",
   "description": "Check Mate Service (2022)",
   "main": "server.js",

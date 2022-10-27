@@ -44,6 +44,7 @@ app.use('/api/rep', require('./routes/api/rep'));
 app.use('/api/receipt', require('./routes/api/receipt'));
 
 
+/*
 //Server static assets in production
 if(process.env.NODE_ENV === 'production')
 {
@@ -54,7 +55,7 @@ if(process.env.NODE_ENV === 'production')
     })
 
 }
-
+*/
 
 //HEROKU LOOKS AT THE porcess.env.PORT
 const PORT = process.env.PORT || 5500;
